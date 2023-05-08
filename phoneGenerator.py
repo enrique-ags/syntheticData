@@ -1,3 +1,4 @@
+#data phone generator
 import random
 def generatePhoneNumbers(Country,State,Limit):#function to generate phone numbers
     directory=[]
