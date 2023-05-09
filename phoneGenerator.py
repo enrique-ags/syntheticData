@@ -39,7 +39,7 @@ def generatePhoneNumbersandExportToSQLDump(Country,State,Limit,tableName,DB):#fu
         directory.clear()
 
 def getCountry(code): #python dictionary  for country
-    countryCode={'MX':52,'USA':1,'CA':1,'DE':49}
+    countryCode={'MX':52,'USA':1,'CA':1,'DE':49,'IN':91}
     return countryCode[code]
 
 def getState(StateCod): #python dictionary for state
