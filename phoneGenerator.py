@@ -1,5 +1,6 @@
 #data phone generator
 #adding unit test
+#addinng rules
 import random
 import pytest
 def generatePhoneNumbers(Country,State,Limit):#function to generate phone numbers
